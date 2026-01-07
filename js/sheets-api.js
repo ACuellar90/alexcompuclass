@@ -3,7 +3,7 @@
 // ============================================
 
 // 🔑 CONFIGURACIÓN - EDITA AQUÍ TU SHEET ID
-const SHEET_ID = 'TU_SHEET_ID_AQUI';  // ⚠️ IMPORTANTE: Reemplaza con tu ID real
+const SHEET_ID = '1QlvdgAAAme2UodAHxwYIxpNT2c3rwnHbEPXeVMMagzY';  // ⚠️ IMPORTANTE: Reemplaza con tu ID real
 
 // URL base de la API de Google Sheets
 const BASE_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?`;
