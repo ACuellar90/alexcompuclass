@@ -1,0 +1,46 @@
+# ============================================
+# AlexCompuClass .gitignore
+# ============================================
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+*~
+
+# Temporales
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Archivos personales (no subir)
+notas-personales.md
+TODO-privado.md
+
+# Backups locales
+backup/
+*.backup
+
+# Node modules (si usas npm en el futuro)
+node_modules/
+
+# Archivos de configuración local
+config.local.js
+
+# Archivos grandes (videos, etc)
+*.mp4
+*.mov
+*.avi
+videos/
+
+# Carpetas de prueba
+test/
+pruebas/
