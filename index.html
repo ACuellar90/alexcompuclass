@@ -610,71 +610,7 @@
         <div class="units-container">
             <h2 class="section-title">Unidades del Programa</h2>
             <div class="units-grid" id="unidades-container">
-                <div class="unit-card">
-                    <div class="unit-number">UNIDAD 1</div>
-                    <h3>Fundamentos de Computación</h3>
-                    <p>Introducción a los sistemas computacionales, hardware, software y evolución tecnológica.</p>
-                    <div class="unit-topics">
-                        <span class="topic-tag">Hardware</span>
-                        <span class="topic-tag">Software</span>
-                        <span class="topic-tag">Sistemas</span>
-                    </div>
-                </div>
-
-                <div class="unit-card">
-                    <div class="unit-number">UNIDAD 2</div>
-                    <h3>Pensamiento Computacional</h3>
-                    <p>Desarrollo de habilidades de resolución de problemas, algoritmos y lógica computacional.</p>
-                    <div class="unit-topics">
-                        <span class="topic-tag">Algoritmos</span>
-                        <span class="topic-tag">Lógica</span>
-                        <span class="topic-tag">Patrones</span>
-                    </div>
-                </div>
-
-                <div class="unit-card">
-                    <div class="unit-number">UNIDAD 3</div>
-                    <h3>Programación I</h3>
-                    <p>Introducción a la programación, estructuras de control y desarrollo de programas básicos.</p>
-                    <div class="unit-topics">
-                        <span class="topic-tag">Python</span>
-                        <span class="topic-tag">Variables</span>
-                        <span class="topic-tag">Funciones</span>
-                    </div>
-                </div>
-
-                <div class="unit-card">
-                    <div class="unit-number">UNIDAD 4</div>
-                    <h3>Desarrollo Web</h3>
-                    <p>Creación de páginas web con HTML, CSS y JavaScript. Diseño responsive y UX.</p>
-                    <div class="unit-topics">
-                        <span class="topic-tag">HTML</span>
-                        <span class="topic-tag">CSS</span>
-                        <span class="topic-tag">JavaScript</span>
-                    </div>
-                </div>
-
-                <div class="unit-card">
-                    <div class="unit-number">UNIDAD 5</div>
-                    <h3>Bases de Datos</h3>
-                    <p>Organización de información, diseño de bases de datos y consultas SQL.</p>
-                    <div class="unit-topics">
-                        <span class="topic-tag">SQL</span>
-                        <span class="topic-tag">Tablas</span>
-                        <span class="topic-tag">Consultas</span>
-                    </div>
-                </div>
-
-                <div class="unit-card">
-                    <div class="unit-number">UNIDAD 6</div>
-                    <h3>Redes y Seguridad</h3>
-                    <p>Conceptos de redes, internet, protocolos y fundamentos de ciberseguridad.</p>
-                    <div class="unit-topics">
-                        <span class="topic-tag">Redes</span>
-                        <span class="topic-tag">Internet</span>
-                        <span class="topic-tag">Seguridad</span>
-                    </div>
-                </div>
+                <p style="color: var(--gray); text-align: center; width: 100%; padding: 2rem;">Cargando unidades desde Google Sheets...</p>
             </div>
         </div>
     </section>
@@ -683,47 +619,7 @@
     <section class="resources" id="recursos">
         <h2 class="section-title">Recursos Descargables</h2>
         <div class="resources-grid" id="recursos-container">
-            <div class="resource-card">
-                <div class="resource-icon">📚</div>
-                <h3>Guías de Estudio</h3>
-                <p>Documentos PDF con teoría y ejemplos</p>
-                <a href="#" class="download-btn">Descargar</a>
-            </div>
-
-            <div class="resource-card">
-                <div class="resource-icon">💾</div>
-                <h3>Ejemplos de Código</h3>
-                <p>Archivos con código de ejemplo</p>
-                <a href="#" class="download-btn">Descargar</a>
-            </div>
-
-            <div class="resource-card">
-                <div class="resource-icon">🎯</div>
-                <h3>Ejercicios Prácticos</h3>
-                <p>Actividades para practicar</p>
-                <a href="#" class="download-btn">Descargar</a>
-            </div>
-
-            <div class="resource-card">
-                <div class="resource-icon">📊</div>
-                <h3>Presentaciones</h3>
-                <p>Slides de las clases</p>
-                <a href="#" class="download-btn">Descargar</a>
-            </div>
-
-            <div class="resource-card">
-                <div class="resource-icon">🎬</div>
-                <h3>Video Tutoriales</h3>
-                <p>Links a videos educativos</p>
-                <a href="#" class="download-btn">Ver Videos</a>
-            </div>
-
-            <div class="resource-card">
-                <div class="resource-icon">📝</div>
-                <h3>Plantillas de Proyectos</h3>
-                <p>Archivos base para proyectos</p>
-                <a href="#" class="download-btn">Descargar</a>
-            </div>
+            <p style="color: var(--gray); text-align: center; width: 100%; padding: 2rem;">Cargando recursos desde Google Sheets...</p>
         </div>
     </section>
 
@@ -769,7 +665,7 @@
     </footer>
 
     <!-- Google Sheets API -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/sheets-api.js"></script>
+    <script src="js/sheets-api.js?v=3"></script>
 
     <script>
         // Smooth scrolling para los enlaces
@@ -801,4 +697,4 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.feature-card, .unit-card, .resource-card').forEach(card => 
+        document.querySelectorAll('.feature-card, .unit-card, .resource-card').forEach(card =>
