@@ -173,6 +173,7 @@
             background-clip: text;
             animation: fadeInUp 0.8s ease-out 0.2s both;
             line-height: 1.2;
+            word-break: break-word;
         }
 
         .hero .subtitle {
@@ -520,12 +521,18 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .logo {
+                font-size: 1.3rem;
+            }
+
             .hero h1 {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
+                padding: 0 1rem;
             }
 
             .hero .subtitle {
-                font-size: 1.2rem;
+                font-size: 1rem;
+                padding: 0 1rem;
             }
 
             .nav-links {
@@ -534,10 +541,87 @@
 
             .cta-buttons {
                 flex-direction: column;
+                padding: 0 1rem;
             }
 
             .section-title {
-                font-size: 2rem;
+                font-size: 1.8rem;
+                padding: 0 1rem;
+            }
+
+            .features {
+                padding: 4rem 1rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .units {
+                padding: 4rem 1rem;
+            }
+
+            .units-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .unit-card {
+                padding: 1.5rem;
+                padding-top: 3rem;
+            }
+
+            .grado-badge {
+                top: 0.75rem;
+                right: 0.75rem;
+                padding: 0.4rem 0.8rem;
+                font-size: 0.75rem;
+            }
+
+            .resources {
+                padding: 4rem 1rem;
+            }
+
+            .resources-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            footer {
+                padding: 3rem 1rem 2rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero .subtitle {
+                font-size: 0.9rem;
+            }
+
+            .btn {
+                padding: 0.8rem 2rem;
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+
+            .unit-card h3 {
+                font-size: 1.4rem;
+            }
+
+            .feature-card {
+                padding: 1.5rem;
             }
         }
     </style>
